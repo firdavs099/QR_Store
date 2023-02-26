@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.main-wrap {
+    width: 1440px;
+    height: 2409px;
+}
+
+.main-wrap--header {
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.header-logo img {
+    width: 200px;
+}
+.header-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    list-style: none;
+}
+.header-items li {
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+.header-items li a {
+    color: #000;
+}
+
+.main-wrap--body {
+    width: 850px;
+    margin: 60px auto;
+}
+.wrap-body_items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.body-items {
+    width: 260px;
+    height: 360px;
+    border: 1px solid silver;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}

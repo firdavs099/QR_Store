@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&display=swap');
 
-* {
-    margin: 0;
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{ 
+   box-sizing: inherit; 
+   margin: 0;
     padding: 0;
     text-decoration: none;
     font-family: 'Golos Text', sans-serif;
 }
-
 .main-wrap {
     width: 1440px;
     height: 2409px;
@@ -47,9 +51,21 @@
     flex-wrap: wrap;
 }
 .body-items {
+    display: block;
     width: 260px;
     height: 360px;
     border: 1px solid silver;
     margin-bottom: 15px;
     border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+}
+.item-img {
+    margin-bottom: 20px;
+}
+.item-desc {
+    line-height: 35px;
+    padding: 6px;
+    border-top: 1px solid silver;
 }

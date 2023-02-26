@@ -5,15 +5,15 @@ html {
 }
 
 *, *:before, *:after{ 
-   box-sizing: inherit; 
-   margin: 0;
+    box-sizing: inherit; 
+    margin: 0;
     padding: 0;
     text-decoration: none;
     font-family: 'Golos Text', sans-serif;
 }
 .main-wrap {
     width: 1440px;
-    height: 2200px;
+    height: auto;
 }
 
 .main-wrap--header {
@@ -78,3 +78,12 @@ html {
     text-align: center;
     color: gainsboro;
 } */
+
+.wrap_body {
+    display: block;
+    width: 850px;
+    margin: 60px auto;
+}
+.contacts {
+    line-height: 35px;
+}
